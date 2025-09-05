@@ -1,2 +1,0 @@
-# tut-port
-exam-portal
