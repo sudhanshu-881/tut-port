@@ -12,7 +12,7 @@ export default function LoginForm() {
       body: JSON.stringify({email, password})
     });
     const data = await res.json();
-    // Handle login/signup success/failure
+    // Handle login/signup success/failure/pass
   }
   return (
     <form onSubmit={handleSubmit}>
@@ -24,4 +24,5 @@ export default function LoginForm() {
       </button>
     </form>
   );
+
 }
